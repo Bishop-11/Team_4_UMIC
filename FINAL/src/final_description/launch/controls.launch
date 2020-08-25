@@ -42,7 +42,7 @@
           final_rf_controller
           --shutdown-timeout 3"/>
 
-
+  <node pkg="final_description" type="sonar.py" name="scan_values_1" output="screen"/>
 
   <!--node name="rqt_robot_steering" pkg="rqt_robot_steering" type="rqt_robot_steering">
     <param name="default_topic" value="/final_diffdrive_controller/cmd_vel"/>
